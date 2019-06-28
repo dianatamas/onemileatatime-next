@@ -18,6 +18,11 @@ const Header = () => (
         Sign In
       </Button>
     </Link>
+    <Link href="/logout">
+      <Button backgroundColor="white" color="primary" spaceLetters borderOnHover>
+        Sign Out
+      </Button>
+    </Link>
     <style jsx>
       {`
         .header {

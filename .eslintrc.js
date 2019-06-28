@@ -4,7 +4,8 @@ module.exports = {
         "alias": {
           "map": [
             ["~components", "./components"],
-            ["~", "./"]
+            ["~", "./"],
+            ["~server", "./server"],
           ],
           "extensions": [ ".js", ".scss", ".json"]
         }
